@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    width: 200px;
+    height: 70px;
+    margin: 16px;
+    font-size: 24px;
+    background-color: purple;
+    color: white;
+    border-radius: 10px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    height: 960px;
+}
+
+.item{
+    box-sizing: border-box;
+    border: 2px solid black;
+}
