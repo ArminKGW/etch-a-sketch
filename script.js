@@ -18,10 +18,14 @@ for(let i = 0; i < size * size; i++){
 
 leftColors.addEventListener("click", (e) => {
     color = e.target.textContent.toLowerCase();
+    flag = true;
+    flag = sketch(container.children, size, flag, color);
 });
 
 rightColors.addEventListener("click", (e) => {
     color = e.target.textContent.toLowerCase();
+    flag = true;
+    flag = sketch(container.children, size, flag, color);
 });
 
 clear.addEventListener("click", () => {
