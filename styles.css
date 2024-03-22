@@ -1,29 +1,114 @@
 body{
     margin: 0;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(40, 43, 44);
+    gap: 64px;
+}
+
+*{
+    text-align: center;
+}
+
+.color{
+    width: 130px;
+    height: 50px;
+    font-size: 22px;
+    color: black;
+    border-radius: 30px;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.purple{
+    background-color: purple;
+}
+
+.left, .right{
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+}
+
+.under-grid{
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-button{
+.size-change{
     width: 200px;
     height: 70px;
     margin: 16px;
     font-size: 24px;
-    background-color: purple;
+    background-color: black;
     color: white;
     border-radius: 10px;
+}
+
+.clear{
+    width: 200px;
+    height: 70px;
+    margin: 16px;
+    font-size: 26px;
+    background-color: rgb(99, 93, 93);
+    color: rgb(239, 225, 225);
+    border-radius: 8px;
+}
+
+button{
+    border: 0;
+    padding: 0;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    font-size: 32px;
+    margin: 16px;
+    color: white;
 }
 
 .container{
     display: flex;
     flex-wrap: wrap;
-    width: 960px;
-    height: 960px;
+    width: 680px;
+    height: 680px;
+    background-color: white;
+    border: 5px solid rgb(168, 224, 232);
+    border-radius: 8px;
+    margin: 0 auto;
 }
 
 .item{
     box-sizing: border-box;
-    border: 2px solid black;
 }
